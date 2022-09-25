@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navigation */
+
+.banner {
+    background: url('images/donation02.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner p {
+    margin-bottom: 30px;
+}
+
+.donate-today {
+    margin: 70px;
+}
+
+.banner h1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.banner h1 span {
+    margin-left: 150px;
+}
+
+.p2 {
+    margin-left: 100px;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
